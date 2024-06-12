@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #FFFFFF;
+}
+main{
+    width: 100vw;
+}
+header{
+    margin: 25px 0 0 9vw;
+    height: 15vh;
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+}
+nav>a{
+    margin: 15px 30px 0 0;
+    color: #99A2AA;
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: none;
+}
+h2{
+    color: #F8F8F8;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.orange{
+    background: #FEC524;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.orangeBlock{
+    margin: 44px 0 0 9vw;
+    max-width: 400px;
+}
+p{
+    margin-top: 35px;
+    color: #0E2F4B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.orangeInput{
+    height: 20vh;
+    width: 85vw;
+    margin: 0 7.4vw;
+    position: absolute;
+    bottom: -5vh;
+
+}
+.orangeInput>input{
+    padding: 0 230px 0 30px;
+    width: 400px;
+    height: 70px;
+    color: #757575;
+    background: #FFF;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
+}
+input[type="number"]:focus{
+    outline: none;
+    appearance: none;
+}
+
+.grid{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid button{
+    width: 18vw;
+    height: 7vh;
+    color: #99A2AA;
+    text-align: center;
+    font-size: 1vw;
+    font-style: normal;
+    border-radius: 10px;
+    border: none;
+    background: #FFF;
+    box-shadow: 0px 3px 35px 0px rgba(95, 98, 102, 0.17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.white{
+    height: 100vh;
+    width: 80vw;
+    margin: 0 9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white h2{
+    color: #0E2F4B;
+    font-size: 48px;
+    padding: 31px 14vw 18px 15px;
+    line-height: 60px;
+}
+
+.white p{
+    padding: 18px ;
+    margin: 0;
+    line-height: 30px;
+}
+.poster{
+    width: 27vw;
+    height: 60vh;
+}
+
+.details{
+    width: 54vw;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+h3{
+    color: #0E2F4B;
+    font-size: 24px;
+    font-style: normal;
+    padding: 30px 30px 0 30px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+h4{
+    padding: 13px 30px 30px 30px;
+    color: #0E2F4B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.blue{
+    width: 100%;
+    height: 66vh;
+    background: #042C4B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.business{
+    width: 51vw;
+    height: 40vh;
+    margin: 0 9vw;
+}
+
+.business p{
+    color: #99A2AA;
+    margin: 20px 0;
+}
+
+.business button{
+    border-radius: 10px;
+    background: #FDC13D;
+    display: flex;
+    width: 19vw;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #0E2F4B;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.hop{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.oranHelp{
+    width: 80%;
+    height: auto;
+    margin: 0 9vw;
+    border-radius: 10px;
+    background: #FDC13D;
+    padding: 5vh 5vw;
+    box-sizing: border-box;
+}
+
+.oranHelp h3{
+    margin: 0;
+    padding: 0;
+    color: #0E2F4B;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+.oranHelp h4{
+    padding: 0;
+}
+.hop h2{
+    color: #0E2F4B;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 121px 0 32px 0;
+}
+.finance{
+    display: flex;
+    gap: 30px;
+}
+
+.finance div{
+    width: 19vw;
+    height: 27vh;
+}
+
+
+
+
+
