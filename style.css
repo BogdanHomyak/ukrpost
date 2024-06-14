@@ -3,20 +3,18 @@
     padding: 0;
 }
 body{
-    background: #FFFFFF;
-}
-main{
-    width: 100vw;
+    background: #F8F8F8;
 }
 header{
-    margin: 25px 0 0 9vw;
-    height: 15vh;
+    background: #fff;
+    padding: 30px 9vw;
+    box-sizing: border-box;
 }
 nav{
     display: flex;
     justify-content: flex-start;
 }
-nav>a{
+a{
     margin: 15px 30px 0 0;
     color: #99A2AA;
     font-size: 16px;
@@ -33,7 +31,7 @@ h2{
 
 .orange{
     background: #FEC524;
-    height: 45vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -53,15 +51,15 @@ p{
 .orangeInput{
     height: 20vh;
     width: 85vw;
-    margin: 0 7.4vw;
+    margin: 50px 7.4vw 0 7.4vw;
     position: absolute;
     bottom: -5vh;
 
 }
-.orangeInput>input{
-    padding: 0 230px 0 30px;
-    width: 400px;
-    height: 70px;
+input{
+    padding: 0 30px 0 30px;
+    width: 35vw;
+    height: 8vh;
     color: #757575;
     background: #FFF;
     font-size: 16px;
@@ -69,7 +67,11 @@ p{
     border-radius: 10px;
     box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
 }
-input[type="number"]:focus{
+input[type="number" ]:focus{
+    outline: none;
+    appearance: none;
+}
+input[type="text" ]:focus{
     outline: none;
     appearance: none;
 }
@@ -81,7 +83,7 @@ input[type="number"]:focus{
 }
 .grid button{
     width: 18vw;
-    height: 7vh;
+    height: 8vh;
     color: #99A2AA;
     text-align: center;
     font-size: 1vw;
@@ -96,9 +98,7 @@ input[type="number"]:focus{
     gap: 20px;
 }
 .white{
-    height: 100vh;
-    width: 80vw;
-    margin: 0 9vw;
+    padding: 10vh 9vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,11 +107,13 @@ input[type="number"]:focus{
     color: #0E2F4B;
     font-size: 48px;
     padding: 31px 14vw 18px 15px;
+    box-sizing: border-box;
     line-height: 60px;
 }
 
 .white p{
     padding: 18px ;
+    box-sizing: border-box;
     margin: 0;
     line-height: 30px;
 }
@@ -133,12 +135,14 @@ h3{
     font-size: 24px;
     font-style: normal;
     padding: 30px 30px 0 30px;
+    box-sizing: border-box;
     font-weight: 700;
     line-height: 32px;
 }
 
 h4{
     padding: 13px 30px 30px 30px;
+    box-sizing: border-box;
     color: #0E2F4B;
     font-size: 14px;
     font-style: normal;
@@ -147,8 +151,7 @@ h4{
 }
 
 .blue{
-    width: 100%;
-    height: 66vh;
+    padding: 12vh 9vw;
     background: #042C4B;
     display: flex;
     justify-content: space-between;
@@ -157,7 +160,6 @@ h4{
 .business{
     width: 51vw;
     height: 40vh;
-    margin: 0 9vw;
 }
 
 .business p{
@@ -165,7 +167,7 @@ h4{
     margin: 20px 0;
 }
 
-.business button{
+button{
     border-radius: 10px;
     background: #FDC13D;
     display: flex;
@@ -183,8 +185,7 @@ h4{
 }
 
 .hop{
-    width: 100%;
-    height: 88vh;
+    padding: 10vh 9vw;
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -194,7 +195,6 @@ h4{
 .oranHelp{
     width: 80%;
     height: auto;
-    margin: 0 9vw;
     border-radius: 10px;
     background: #FDC13D;
     padding: 5vh 5vw;
@@ -230,6 +230,117 @@ h4{
     width: 19vw;
     height: 27vh;
 }
+
+.find{
+    background: #0E2F4B;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    padding:14vh 9vw;
+    box-sizing: border-box;
+}
+.find p{
+    color: #99A2AA;
+}
+
+.find div{
+    display: flex;
+    margin-top: 8vh;
+}
+
+.news{
+    padding: 9vh;
+    box-sizing: border-box;
+}
+
+.gridNews{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.blockNews{
+    background: #fff;
+    padding: 30px 30px 24px 30px;
+    box-sizing: border-box;
+}
+.blockNews>div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.blockNews h3{
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0;
+}
+.news h2{
+    color: #0E2F4B;
+    margin-top: 11vh;
+}
+.gridUP{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gridUP a{
+    padding: 30px;
+    border-radius: 10px;
+    background: #FFF;
+    color: #99A2AA;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.app{
+    background: #FEC524;
+    padding: 9vw;
+    box-sizing: border-box;
+}
+
+.app h3{
+    margin-top: 35px;
+    padding: 0;
+}
+
+.app div{
+    display: flex;
+    margin: 15px 0;
+    gap: 20px;
+}
+
+.footer{
+    background: #1D2023;
+    padding: 10vh 9vw;
+    box-sizing: border-box;
+}
+.gridFooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.gridFooter div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer h3{
+    color: #FFF;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.line{
+    margin: 6vh 0;
+    border-bottom: 1px solid #99A2AA;
+}
+
+
+
 
 
 
